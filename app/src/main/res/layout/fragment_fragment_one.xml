@@ -13,39 +13,46 @@
 
         <Button
             android:id="@+id/button_one"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button One" />
+            android:layout_marginHorizontal="136dp"
+            android:text="Button One"/>
 
         <Button
             android:id="@+id/button_two"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="button two" />
+            android:layout_marginHorizontal="136dp"
+            android:text="Button Two" />
 
         <Button
             android:id="@+id/button_three"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="button three" />
+            android:layout_marginHorizontal="136dp"
+            android:text="Button Three" />
 
         <Button
             android:id="@+id/button_four"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="button four" />
+            android:layout_marginHorizontal="136dp"
+            android:text="Button Four" />
 
         <Button
             android:id="@+id/button_five"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="button five" />
+            android:layout_marginHorizontal="136dp"
+            android:text="Button Five" />
 
         <EditText
             android:id="@+id/editText_fragment"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:hint="Enter Text"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="64dp"
             android:inputType="text" />
 
 </LinearLayout>

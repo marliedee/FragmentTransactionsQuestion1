@@ -8,9 +8,12 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/four"
+        android:paddingTop="64dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment"
-        android:textSize="24sp"/>
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"/>
 
 </FrameLayout>
