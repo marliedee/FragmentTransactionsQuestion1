@@ -10,8 +10,7 @@
         android:id="@+id/one"
         android:paddingTop="64dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment"
+        android:layout_height="wrap_content"
         android:textSize="36sp"
         android:textAlignment="center"
         android:fontFamily="sans-serif-black"/>
