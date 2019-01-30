@@ -49,7 +49,7 @@ public class FragmentOne extends Fragment {
                 Bundle bundle = new Bundle();
                 bundle.putString("first", editTextContents);
                 firstFragment.setArguments(bundle);
-                ft.replace(R.id.main_container, firstFragment).addToBackStack("first");
+                ft.replace(R.id.main_fragment, firstFragment).addToBackStack("first");
                 ft.commit();
             }
         });
@@ -63,7 +63,7 @@ public class FragmentOne extends Fragment {
                 Bundle bundle = new Bundle();
                 bundle.putString("first", editTextContents);
                 firstFragment.setArguments(bundle);
-                ft.replace(R.id.main_container, firstFragment).addToBackStack("first");
+                ft.replace(R.id.main_fragment, firstFragment).addToBackStack("first");
                 ft.commit();
             }
         });
@@ -77,7 +77,7 @@ public class FragmentOne extends Fragment {
                 Bundle bundle2 = new Bundle();
                 bundle2.putString("second", editTextContents);
                 secondFragment.setArguments(bundle2);
-                ft2.replace(R.id.main_container, secondFragment).addToBackStack("second");
+                ft2.replace(R.id.main_fragment, secondFragment).addToBackStack("second");
                 ft2.commit();
             }
         });
@@ -91,7 +91,7 @@ public class FragmentOne extends Fragment {
                 Bundle bundle3 = new Bundle();
                 bundle3.putString("third", editTextContents);
                 thirdFragment.setArguments(bundle3);
-                ft3.replace(R.id.main_container, thirdFragment).addToBackStack("third");
+                ft3.replace(R.id.main_fragment, thirdFragment).addToBackStack("third");
                 ft3.commit();
             }
         });
@@ -105,7 +105,7 @@ public class FragmentOne extends Fragment {
                 Bundle bundle4 = new Bundle();
                 bundle4.putString("fourth", editTextContents);
                 fourFragment.setArguments(bundle4);
-                ft4.replace(R.id.main_container, fourFragment).addToBackStack("fourth");
+                ft4.replace(R.id.main_fragment, fourFragment).addToBackStack("fourth");
                 ft4.commit();
             }
         });
@@ -120,7 +120,7 @@ public class FragmentOne extends Fragment {
                 Bundle bundle5 = new Bundle();
                 bundle5.putString("fifth", editTextContents);
                 fifthFragment.setArguments(bundle5);
-                ft5.replace(R.id.main_container, fifthFragment).addToBackStack("fifth");
+                ft5.replace(R.id.main_fragment, fifthFragment).addToBackStack("fifth");
                 ft5.commit();
             }
         });
